@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/grudges-undo-redo/static/css/main.eb22b91a.css",
+    "main.js": "/grudges-undo-redo/static/js/main.8b5411ad.js",
+    "index.html": "/grudges-undo-redo/index.html",
+    "main.eb22b91a.css.map": "/grudges-undo-redo/static/css/main.eb22b91a.css.map",
+    "main.8b5411ad.js.map": "/grudges-undo-redo/static/js/main.8b5411ad.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eb22b91a.css",
+    "static/js/main.8b5411ad.js"
+  ]
+}
