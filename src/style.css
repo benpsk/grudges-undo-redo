@@ -1,0 +1,62 @@
+html,
+* {
+  box-sizing: border-box;
+}
+
+.app {
+  margin: auto;
+  margin-top: 20px;
+  max-width: 400px;
+}
+
+.grudge {
+  border: 1px solid red;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+.forgiven {
+  color: rgb(209, 51, 51);
+}
+
+.addGrudge {
+  display: flex;
+  flex-direction: row;
+}
+
+.addGrudge input {
+  background-color: rgb(247, 186, 186);
+  border: 1px solid red;
+  padding: 5px;
+  width: 100%;
+}
+
+.addGrudge .submit {
+  background-color: rgb(219, 29, 29);
+  border: 1px solid red;
+  width: 70px;
+  color: white;
+}
+
+.addGrudge .submit:hover {
+  cursor: pointer;
+}
+.undo-redo {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.undo-redo button {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  width: 100%;
+  background-color: blueviolet;
+  color: white;
+}
+
+.undo-redo button:disabled {
+  color: rgb(226, 156, 156)
+}
